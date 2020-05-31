@@ -10,6 +10,7 @@ RUN apk add --no-cache ca-certificates
 
 # Installing Packages
 RUN apk add --no-cache --update \
+    python-dev \
     bash \
     build-base \
     bzip2-dev \
